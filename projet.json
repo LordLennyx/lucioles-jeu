@@ -1,0 +1,19 @@
+{
+ "repo": "lucioles-jeu",
+ "nom": "Lucioles",
+ "type": "Jeu HTML5 original (Canvas)",
+ "categorie": "Jeux et interactif",
+ "resume": "Jeu d'arcade original jouable dans le navigateur : guider une pirogue sur un fleuve nocturne généré à l'infini, où la lumière de la lanterne est à la fois la vie et le champ de vision. Graphismes et sons entièrement générés par le code.",
+ "fonctions": [
+  "Mécanique originale : la lanterne faiblit avec le temps, les chocs la diminuent, les lucioles la rallument ; moins de lumière, moins de visibilité",
+  "Fleuve procédural infini (bruit lissé), berges, roseaux, reflets d'étoiles, sillage, particules",
+  "Obstacles variés : troncs dérivants, rochers, crocodiles en patrouille ; difficulté progressive",
+  "Combos d'essaim sur une gamme pentatonique, ambiance d'eau et de grillons synthétisée (Web Audio, aucun fichier)",
+  "Clavier, tactile, vibration mobile, pause automatique, record local, écran adaptatif haute densité"
+ ],
+ "stack": "JavaScript natif, Canvas 2D, Web Audio API",
+ "extra": {
+  "Poids": "un seul fichier HTML d'environ 20 Ko",
+  "Évolutions possibles": "classement en ligne, niveaux, version PWA hors ligne, monétisation publicitaire"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "titre": "<em>Lucioles</em>, jeu HTML5",
+ "type": "Jeu vidéo · navigateur",
+ "sous_titre": "Une pirogue, une lanterne qui faiblit, des lucioles pour la rallumer",
+ "couleur": "#06121a",
+ "graine": 17,
+ "voix": [
+  [
+   3.3,
+   "Lucioles, un jeu original pour navigateur,"
+  ],
+  [
+   8.0,
+   "une pirogue sur le Wouri la nuit, la lanterne s'éteint peu à peu,"
+  ],
+  [
+   15.0,
+   "seules les lucioles la rallument, tout est dessiné et joué en direct, au clavier comme au doigt."
+  ]
+ ],
+ "etapes": [
+  {
+   "t": "wait",
+   "ms": 1800
+  },
+  {
+   "t": "eval",
+   "js": "window.__auto=true",
+   "pause": 100
+  },
+  {
+   "t": "click",
+   "sel": "#play",
+   "pause": 17200
+  }
+ ]
+}
